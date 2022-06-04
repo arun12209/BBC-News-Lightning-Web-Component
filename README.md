@@ -5,4 +5,7 @@ This lightning web component display the top news articles from bbc news. It is 
 ## :tv: Demo
 ![](https://github.com/arun12209/BBC-News-Lightning-Web-Component/blob/master/Images/bbc-new-lwc-screen.png)
 
+## :hammer_and_wrench: Setup & Configurations
+* Create a named credentials.
+![](https://github.com/arun12209/BBC-News-Lightning-Web-Component/blob/master/Images/named-credential-settings.png)
 
