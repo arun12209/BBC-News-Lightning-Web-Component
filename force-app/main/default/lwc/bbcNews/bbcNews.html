@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="BBC News" icon-name="utility:news" class="card">
+        <template if:true={errorMessage}>
+            <p class="error">{errorMessage}</p>
+        </template>
+        <div class="news-container">
+           <template for:each={newsArticles} for:item="news">
+               <div key={news.title}>
+                <a  href={news.url} target="_blank">
+                    <p class="article-para"><b class="rank">{news.rank}</b>&nbsp; {news.title}</p>
+                    <img src={news.imgURL}/>
+                    </a> 
+                    <p>{news.description}</p>
+               </div>
+               
+            </template>
+        </div>
+    </lightning-card>
+    </template>
